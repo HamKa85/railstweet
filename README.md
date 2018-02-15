@@ -30,11 +30,14 @@ La méthode index va récupérer le text-field de ton formulaire et le passer da
 
 2.1. Clés en dev & test
 
-Pour le dev et les tests, tu peux utiliser la gem dotenv qui est pas mal du tout pour bien gérer ses clés d'API sans avoir à s'en préoccuper.
+Pour le dev et les tests, tu peux utiliser la gem dotenv qui est pas mal du tout pour bien gérer ses clés d'API sans avoir à s'en préoccuper. https://github.com/bkeepers/dotenv
 
-📈 Bon plan du jour 🎁 : j'ai fait une cheat-sheet sur Dotenv que tu peux utiliser pour te familiariser avec la gem.
+📈 Bon plan du jour 🎁 : cheat-sheet sur Dotenv que tu peux utiliser pour te familiariser avec la gem.
+https://github.com/felhix/cheat_sheets/blob/master/Ruby/dotenv.md
+
 2.2. Clés en production
 
 Et bien figure-toi que ce n'est pas si compliqué que ça de balancer les clés d'APIs sur Heroku. Heroku a ce qu'on appelle des config vars : tu lui donnes le nom de ta variable (comme tu les appèlerais dans le fichier .env, la valeur de la variable (la clé) puis le tour est joué 😇
 
 Pour configurer les clés, tu peux le faire via CLI, ou même via l'interface de Heroku. La doc de Heroku explique comment faire cela.
+https://devcenter.heroku.com/articles/config-vars#setting-up-config-vars-for-a-deployed-application
