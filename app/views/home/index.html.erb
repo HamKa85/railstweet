@@ -1,0 +1,13 @@
+<div class="col-md-8 col_md_offset-2">
+  <div class="message">
+    <div class="message-title">
+      <h3>Vazy Tweet mec!</h3>
+    </div>
+       <%= form_for :tweet, url: "/tweet" do |form| %>
+        <%= form.text_field :message %>
+        <%= form.submit "Envoie ton tweet !", class: "btn btn-default btn-secondary" %>
+       <% end  %>
+    </div>
+    <h3>Check ton tweet en cliquant ci-dessous : </h3>
+    <a href="https://twitter.com/zinhosama"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Twitter_logo_initial.png/150px-Twitter_logo_initial.png"></a>
+</div>
